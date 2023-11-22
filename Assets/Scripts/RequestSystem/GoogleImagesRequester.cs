@@ -40,61 +40,42 @@ public class GooglePlacesImageURL
 
             string finalPhotoUrl = photoUrl + photoParameters;
             return await ImageRequester.GetImageFromUrl(finalPhotoUrl);
+        }
     }
-}
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     [System.Serializable]
-public class PlaceDetails
-{
-    public Result[] results { get; set; }
-}
-[System.Serializable]
-public class Result
-{
-    public string name { get; set; }
-    public Photo[] photos { get; set; }
-    public string place_id { get; set; }
-    public string[] types { get; set; }
-    public string vicinity { get; set; }
-}
+    public class PlaceDetails
+    {
+        public Result[] results { get; set; }
+    }
+    [System.Serializable]
+    public class Result
+    {
+        public string name { get; set; }
+        public Photo[] photos { get; set; }
+        public string place_id { get; set; }
+        public string[] types { get; set; }
+        public string vicinity { get; set; }
+    }
 
-[System.Serializable]
-public class Geometry
-{
-    public Location location { get; set; }
-}
+    [System.Serializable]
+    public class Geometry
+    {
+        public Location location { get; set; }
+    }
 
-[System.Serializable]
-public class Location
-{
-    public float lat { get; set; }
-    public float lng { get; set; }
-}
+    [System.Serializable]
+    public class Location
+    {
+        public float lat { get; set; }
+        public float lng { get; set; }
+    }
 
-public class Photo
-{
-    public int height { get; set; }
-    public string[] html_attributions { get; set; }
-    public string photo_reference { get; set; }
-    public int width { get; set; }
-}
+    public class Photo
+    {
+        public int height { get; set; }
+        public string[] html_attributions { get; set; }
+        public string photo_reference { get; set; }
+        public int width { get; set; }
+    }
 }

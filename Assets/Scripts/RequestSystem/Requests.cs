@@ -11,10 +11,14 @@ using System;
 
 namespace RequestsUtil{
 
+    public static class RequestConfig {
+        public static string BaseApiUrl { get; private set; } = "";
+    }
+
     public class Requests{
 
         public static async Task<FilterIdData> GetFilterId(double lat, double longi) {
-            var json = await GetData("https://rrg-api.vercel.app/GetIdList/" + lat + "/" + longi + "/");
+            var json = await GetData(RequestConfig.BaseApiUrl + "/GetIdList/" + lat + "/" + longi + "/");
             try {
                 return ConvertData<FilterIdData>(json);
             }
@@ -32,9 +36,7 @@ namespace RequestsUtil{
             }
             
             //Debug.Log(filterdata);
-            var json = await GetData("https://rrg-api.vercel.app/GetPois/" + lat + "/" + longi + "/" + filterdata);
-
-            
+            var json = await GetData(RequestConfig.BaseApiUrl + "/GetPois/" + lat + "/" + longi + "/" + filterdata);
             
             try {
                 return ConvertData<POIInfo>(json);
@@ -48,7 +50,7 @@ namespace RequestsUtil{
         public static async Task<RouteData> GetRoute(double lat, double longi, string DrivingProfile, POIInfo PoiInfo) {
 
             string InputJson = JsonConvert.SerializeObject(PoiInfo.data);
-            var json = await GetData("https://rrg-api.vercel.app/GetRoute/" + lat + "/" + longi + "/"  + DrivingProfile + "/" + InputJson);
+            var json = await GetData(RequestConfig.BaseApiUrl + "/GetRoute/" + lat + "/" + longi + "/"  + DrivingProfile + "/" + InputJson);
 
             try {
                 return ConvertData<RouteData>(json);
@@ -87,7 +89,7 @@ namespace RequestsUtil{
         {
             string catidsString = string.Join(",", catids).TrimEnd(',');
 
-            string url = "https://rrg-api.vercel.app/SendRating/" + username + "/" + catidsString + "/" + rating;
+            string url = RequestConfig.BaseApiUrl + "/SendRating/" + username + "/" + catidsString + "/" + rating;
 
             UnityWebRequest webRequest = UnityWebRequest.Get(url);
 
@@ -108,7 +110,7 @@ namespace RequestsUtil{
         }
 
         public static async Task<RandomIdData> GetRandomIdList(string username, double lat, double longi) {
-            var json = await GetData("https://rrg-api.vercel.app/GetRandomIdList/" + username + "/" + lat + "/" + longi);
+            var json = await GetData(RequestConfig.BaseApiUrl + "/GetRandomIdList/" + username + "/" + lat + "/" + longi);
             try {
                 return ConvertData<RandomIdData>(json);
             }
@@ -116,8 +118,5 @@ namespace RequestsUtil{
                 throw;
             }
         }
-
-        
-        
     }
 }
