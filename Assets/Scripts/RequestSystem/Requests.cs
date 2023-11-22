@@ -12,7 +12,7 @@ using System;
 namespace RequestsUtil{
 
     public static class RequestConfig {
-        public static string BaseApiUrl { get; private set; } = "insert-domain";
+        public static string BaseApiUrl { get; private set; } = "insert-your-domain";
     }
 
     public class Requests{
