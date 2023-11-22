@@ -7666,7 +7666,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9177676075918328315, guid: ee47145f371072f40bb6b71ee6332316, type: 3}
       propertyPath: UsingTestLocation
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177676075918328315, guid: ee47145f371072f40bb6b71ee6332316, type: 3}
+      propertyPath: CustomLocationBool
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9177676075918328315, guid: ee47145f371072f40bb6b71ee6332316, type: 3}
       propertyPath: OmkringKildeparken
