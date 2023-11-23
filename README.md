@@ -15,17 +15,19 @@ The RunningRouteGeneratorClient is a Unity app designed for a University project
 
 1. Ensure you have created the required API by following the instructions in the [Recreating the API section](https://github.com/eske4/RunningRouteGeneratorAPI).
 
-2. Download Unity version 2021.3.19f1 [here](https://unity.com/releases/editor/whats-new/2021.3.19).
+2. Setup RunningRouteGeneratorMapAPI
 
-3. In the `Assets/Scripts/RequestSystem/` directory, open the `Requests.cs` file located at [Assets/Scripts/RequestSystem/Requests.cs]. Update the API domain, as specified in step one, by replacing "insert-your-domain" with your API domain. Modify line 15 to reflect your changes:
+3. Download Unity version 2021.3.19f1 [here](https://unity.com/releases/editor/whats-new/2021.3.19).
+
+4. In the `Assets/Scripts/RequestSystem/` directory, open the `Requests.cs` file located at [Assets/Scripts/RequestSystem/Requests.cs]. Update the API domain, as specified in step one, by replacing "insert-your-domain" with your API domain. Modify line 15 to reflect your changes:
 
     ```csharp
     public static string BaseApiUrl { get; private set; } = "insert-your-domain";
     ```
 
-4. Obtain a Google Maps API key [here](https://developers.google.com/maps).
+5. Obtain a Google Maps API key [here](https://developers.google.com/maps).
 
-5. In the `Assets/Scripts/RequestSystem/` directory, open the `GoogleImagesRequester.cs` file located at [Assets/Scripts/RequestSystem/GoogleImagesRequester.cs]. Replace the `api_key` variable (line 1) with the API key obtained in step 4:
+6. In the `Assets/Scripts/RequestSystem/` directory, open the `GoogleImagesRequester.cs` file located at [Assets/Scripts/RequestSystem/GoogleImagesRequester.cs]. Replace the `api_key` variable (line 1) with the API key obtained in step 4:
 
     ```csharp
     string api_key = "your-google-maps-api-key";
@@ -33,7 +35,7 @@ The RunningRouteGeneratorClient is a Unity app designed for a University project
 
    Note: Keep the Google Maps API key confidential. Do not make the app public for security reasons.
 
-6. Upload the app to your Android device by following these steps within Unity:
+7. Upload the app to your Android device by following these steps within Unity:
    - Go to `File` > `Build Settings`.
    - Select `Android` under the platform.
    - Download the Android module guided by Unity and switch the platform to Android.
