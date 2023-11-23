@@ -3,7 +3,7 @@ The RunningRouteGeneratorClient is a Unity app designed for a University project
 
 ## Pages
 ### Main menu
-<img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/MainMenu/MainMenu.png" width="500">
+<img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/MainMenu/MainMenu.png" width="200">
 
 ## Setup
 ### Prerequisites
