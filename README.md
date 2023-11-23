@@ -2,7 +2,7 @@
 
 ## Overview
 
-RunningRouteGeneratorClient is a Unity application designed to generate running routes using the RunningRouteGeneratorAPI. Follow the steps below to set up and run the client on your Android device.
+RunningRouteGeneratorClient is a Unity application designed to generate and navigate running routes using the RunningRouteGeneratorAPI. Follow the steps below to set up and run the client on your Android device.
 
 ### Prerequisites
 
