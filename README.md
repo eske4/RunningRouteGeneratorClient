@@ -11,6 +11,10 @@ On this page they toggle between walk/bike and can set their home location and t
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/RouteSettingsPage/RouteSettingsFilter.png" width="200" />
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/RouteSettingsPage/RouteSettingsGuide.png" width="200" /> 
 </div>
+text
+<div align="center">
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/RouteSettingsPage/Explore/RouteSettingsExplore.png" width="200" />
+</div>
 
 ## Setup
 ### Prerequisites
