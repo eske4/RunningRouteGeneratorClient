@@ -36,7 +36,7 @@ RunningRouteGeneratorClient is a Unity application designed to generate running 
 6. Upload the app to your Android device by following these steps within Unity:
    - Go to `File` > `Build Settings`.
    - Select `Android` under the platform.
-   - Download the Android module guided by Unity's switch platform to Android.
-   - Build and run the application.
+   - Download the Android module guided by Unity and switch the platform to Android.
+   - Build and run the application, make sure to have an Android phone connected to the pc.
 
 **Important:** Never upload this app publicly, as the Google Maps API key is embedded in the app. The API key should have been built into the API during step 1. Consider using an alternative method from Google Maps to avoid potential costs.
