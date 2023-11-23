@@ -4,7 +4,9 @@ The RunningRouteGeneratorClient is a Unity app designed for a University project
 ## Pages
 ### Main menu
 The page every use starts at, here they can either generate a new route or look at their history
-<img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/MainMenu/MainMenu.png" width="200">
+<div align="center">
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/MainMenu/MainMenu.png" width="200">
+</div>
 ### Route Settings Page
 On this page they toggle between walk/bike and can set their home location and toggle explore mode on and off
 <div align="center">
