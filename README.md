@@ -15,7 +15,7 @@ The RunningRouteGeneratorClient is a Unity app designed for a University project
 
 1. Ensure you have created the required API by following the instructions in the [Recreating the API section](https://github.com/eske4/RunningRouteGeneratorAPI).
 
-2. Setup RunningRouteGeneratorMapAPI
+2. Setup RunningRouteGeneratorMapAPI by following the instructions [here](https://github.com/eske4/RunningRouteGeneratorMapAPI)
 
 3. Download Unity version 2021.3.19f1 [here](https://unity.com/releases/editor/whats-new/2021.3.19).
 
