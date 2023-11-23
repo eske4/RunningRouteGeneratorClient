@@ -1,14 +1,14 @@
 # RunningRouteGeneratorClient
+The RunningRouteGeneratorClient is a Unity app designed for a University project to create and navigate running routes using the [RunningRouteGeneratorAPI](https://github.com/eske4/RunningRouteGeneratorAPI). The client has 8 pages, each page with its own features to create the user experience. Note that some security aspects may be incomplete, as the project is no longer actively developed. Use with caution in security-sensitive scenarios. 
 
-## Overview
-
-RunningRouteGeneratorClient is a Unity application designed to generate and navigate running routes using the RunningRouteGeneratorAPI. Follow the steps below to set up and run the client on your Android device.
+### Main menu
 
 ### Prerequisites
 
 - Android phone
 - Unity 2021.3.19f1
 - RunningRouteGeneratorAPI
+- RunningRouteGeneratorMapAPI
 - Google Maps API key
 
 ### Installation Steps
@@ -17,7 +17,7 @@ RunningRouteGeneratorClient is a Unity application designed to generate and navi
 
 2. Download Unity version 2021.3.19f1 [here](https://unity.com/releases/editor/whats-new/2021.3.19).
 
-3. In the `Assets/Scripts/RequestSystem/` directory, open the `Requests.cs` file located at [Assets/Scripts/RequestSystem/Requests.cs]. Update the API domain, as specified in step one, by replacing "insert-your-domain" with your domain. Modify line 15 to reflect your changes:
+3. In the `Assets/Scripts/RequestSystem/` directory, open the `Requests.cs` file located at [Assets/Scripts/RequestSystem/Requests.cs]. Update the API domain, as specified in step one, by replacing "insert-your-domain" with your API domain. Modify line 15 to reflect your changes:
 
     ```csharp
     public static string BaseApiUrl { get; private set; } = "insert-your-domain";
