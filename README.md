@@ -107,7 +107,7 @@ Accessed through the main menu, this page allows users to run a previously gener
    - After downloading, extract the contents to your desired location on your computer.
 
 4. **Update API Domain in Unity:**
-   - In the `Assets/Scripts/RequestSystem/` directory, open the `Requests.cs` file located at [Assets/Scripts/RequestSystem/Requests.cs].
+   - Inside the projects `Assets/Scripts/RequestSystem/` directory, open the `Requests.cs` file located at [Assets/Scripts/RequestSystem/Requests.cs].
    - Update the API domain, replacing "insert-your-domain" with your API domain. Modify line 15:
       ```csharp
       public static string BaseApiUrl { get; private set; } = "insert-your-domain";
@@ -117,7 +117,7 @@ Accessed through the main menu, this page allows users to run a previously gener
    - Obtain a Google Maps API key [here](https://developers.google.com/maps).
 
 6. **Update Google Images Requester:**
-   - In the `Assets/Scripts/RequestSystem/` directory, open the `GoogleImagesRequester.cs` file.
+   - Inside the projects `Assets/Scripts/RequestSystem/` directory, open the `GoogleImagesRequester.cs` file.
    - Replace the `api_key` variable (line 1) with the obtained Google Maps API key:
       ```csharp
       string api_key = "your-google-maps-api-key";
@@ -132,6 +132,7 @@ Accessed through the main menu, this page allows users to run a previously gener
 
 8. **Build and Run on Android:**
    - Upload the app to your Android device by following these steps within Unity:
+      - In Unity Hub add the project and open it with `Unity 2021.3.19f1`
       - Go to `File` > `Build Settings`.
       - Select `Android` under the platform.
       - Download the Android module guided by Unity and switch the platform to Android.
