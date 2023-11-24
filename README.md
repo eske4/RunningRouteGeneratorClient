@@ -77,10 +77,10 @@ Accessed through the main menu, this page allows users to run a previously gener
 ### Prerequisites
 
 - Android phone
-- Unity 2021.3.19f1
-- RunningRouteGeneratorAPI
-- RunningRouteGeneratorMapAPI
-- Google Maps API key
+- [Unity 2021.3.19f1](https://unity.com/releases/editor/whats-new/2021.3.19)
+- [RunningRouteGeneratorAPI](https://github.com/eske4/RunningRouteGeneratorAPI)
+- [RunningRouteGeneratorMapAPI](https://github.com/eske4/RunningRouteGeneratorMapAPI)
+- [Google Maps API key](https://developers.google.com/maps)
 
 ### Installation Steps
 
