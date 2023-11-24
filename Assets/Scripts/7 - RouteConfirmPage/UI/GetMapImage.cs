@@ -7,7 +7,7 @@ using TMPro;
 
 public class GetMapImage : MonoBehaviour
 {
-    private string Website = "http://klintoe.pythonanywhere.com/DrawMap/";
+    private string Website = "Insert-your-map-API-url/DrawMap/"; // Insert the map API url here, include /DrawMap/ after the url
     public StoredData data;
     private RouteNodeList routeNodeList;
     [SerializeField]private GameObject[] objectToDeactivate;
@@ -18,9 +18,6 @@ public class GetMapImage : MonoBehaviour
     {
         data = GameObject.FindWithTag("StoredData").GetComponent<StoredData>();
         routeNodeList = new RouteNodeList(data.Route);
-        //"http://klintoe.pythonanywhere.com/DrawMap/57.01802465922206,9.990545365623875,57.027006281564795,9.98802408927767,57.018240757560264,9.992959353816799"
-            
-        
         
         var spriteRenderer = gameObject.GetComponent<Image>();
 
