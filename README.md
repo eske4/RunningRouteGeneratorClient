@@ -93,6 +93,19 @@ Accessed through the main menu, this page allows users to run a previously gener
 3. **Download Unity 2021.3.19f1:**
    - Download Unity version 2021.3.19f1 [here](https://unity.com/releases/editor/whats-new/2021.3.19).
 
+4. **Store repository**
+   - If you have Git installed, you can clone the repository using the following command:
+
+    ```bash
+    git clone https://github.com/eske4/RunningRouteGeneratorClient.git
+    ```
+
+    Alternatively, you can download the project as a ZIP file:
+
+   - Click on the "Code" button at the top of the repository.
+   - Select "Download ZIP" from the dropdown menu.
+   - After downloading, extract the contents to your desired location on your computer.
+
 4. **Update API Domain in Unity:**
    - In the `Assets/Scripts/RequestSystem/` directory, open the `Requests.cs` file located at [Assets/Scripts/RequestSystem/Requests.cs].
    - Update the API domain, replacing "insert-your-domain" with your API domain. Modify line 15:
