@@ -3,18 +3,18 @@ The RunningRouteGeneratorClient is a Unity app designed for a University project
 
 ## <div align="center">Pages</div>
 ### Main menu
-The page every use starts at, here they can either generate a new route or look at their history
+The page it starts at, here they can either generate a new route or look at their history
 <div align="center">
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/MainMenu/MainMenu.png" width="200">
 </div>
 
 ### Route Settings Page
-On this page they toggle between walk/bike and can set their home location and toggle explore mode on and off
+On this page, they toggle between walk/bike and can set their home location and toggle explore mode on and off
 <div align="center">
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/RouteSettingsPage/RouteSettingsFilter.png" width="200" />
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/RouteSettingsPage/RouteSettingsGuide.png" width="200" /> 
 </div>
-text
+Explore mode activated an amount between 0-10 can be picked and it will trigger an algorithm that triggers a recommendation algorithm picking random points of interest letting the user discover new points of interest based on how many they want to explore that the picked between 0-10
 <div align="center">
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/RouteSettingsPage/Explore/RouteSettingsExplore.png" width="200" />
 </div>
