@@ -82,7 +82,7 @@ Accessed through the main menu, this page allows users to run a previously gener
 - RunningRouteGeneratorMapAPI
 - Google Maps API key
 
-### <div align="center">Installation Steps</div>
+### Installation Steps
 
 1. Ensure you have created the required API by following the instructions in the [Recreating the API section](https://github.com/eske4/RunningRouteGeneratorAPI).
 
