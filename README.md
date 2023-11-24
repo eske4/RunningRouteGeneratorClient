@@ -24,7 +24,7 @@ Explore mode allows users to choose a number of Points of Interest between 0-10,
 
 ### <div align="center">Points of Interests category page</div>
 
-<div align="center">
+<div>
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/POICatPage/Categories.png" width="150" />
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/POICatPage/SubCategories.png" width="150" /> 
 </div>
