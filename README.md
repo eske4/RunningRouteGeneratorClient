@@ -21,12 +21,43 @@ text
 
 ### Points of interests category page
 
+<div align="center">
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/POICatPage/Categories.png" width="200" />
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/POICatPage/SubCategories.png" width="200" /> 
+</div>
+
 ### Points of interests picker page
+
+<div align="center">
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/POIPage/POIPage.jpg" width="200" />
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/POIPage/POIZoom.jpg" width="200" /> 
+</div>
+
+### confirm route page
+
+<div align="center">
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/ConfirmPage/Loading.jpg" width="200" />
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/ConfirmPage/RouteConfirm.png" width="200" /> 
+</div>
 
 ### Navigation page
 
+<div align="center">
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/NavigationPage/Navi.jpg" width="200" />
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/NavigationPage/NaviMap.jpg" width="200" /> 
+</div>
 
-### confirm route page
+### Afterrun Page
+
+<div align="center">
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/AfterRunPage/AfterRun.jpg" width="200" />
+</div>
+
+### Route history page
+
+<div align="center">
+  <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/HistoryPage/HistoryPic.jpg" width="200" />
+</div>
 
 ## Setup
 ### Prerequisites
