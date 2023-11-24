@@ -2,14 +2,14 @@
 The RunningRouteGeneratorClient is a Unity app designed for a University project to create and navigate running routes using the [RunningRouteGeneratorAPI](https://github.com/eske4/RunningRouteGeneratorAPI). The client has 8 pages, each page with its own features to create the user experience. Note that some security aspects may be incomplete, as the project is no longer actively developed. Use with caution in security-sensitive scenarios. 
 
 ## <div align="center">Pages</div>
-### <div align="center">Main menu</div>
+### Main menu
 <div>
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/MainMenu/MainMenu.png" width="150">
 </div>
 
 The Main Menu is the starting point where users can either generate a new route or review their route history.
 
-### <div align="center">Route Settings Page</div>
+### Route Settings Page
 <div>
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/RouteSettingsPage/RouteSettingsFilter.png" width="150" />
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/RouteSettingsPage/RouteSettingsGuide.png" width="150" /> 
@@ -22,7 +22,7 @@ On this page, users can toggle between walk/bike modes, set their home location,
 Explore mode allows users to choose a number of Points of Interest between 0-10, triggering a recommendation algorithm that suggests random points of interest for exploration.
 
 
-### <div align="center">Points of Interests category page</div>
+### Points of Interests category page
 
 <div>
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/POICatPage/Categories.png" width="150" />
@@ -30,7 +30,7 @@ Explore mode allows users to choose a number of Points of Interest between 0-10,
 </div>
 If explore mode is not toggled on, users are directed to this page, where they can filter points of interest based on categories available in their area.
 
-### <div align="center">Points of Interests picker page</div>
+### Points of Interests picker page
 
 <div>
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/POIPage/POIPage.jpg" width="150" />
@@ -39,7 +39,7 @@ If explore mode is not toggled on, users are directed to this page, where they c
 
 After filtering points of interest on the previous page, users are presented with images and names of points of interest in their area under the selected categories. They can choose as many points of interest as they desire.
 
-### <div align="center">Confirm route page</div>
+### Confirm route page
 
 <div>
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/ConfirmPage/Loading.jpg" width="150" />
@@ -48,7 +48,7 @@ After filtering points of interest on the previous page, users are presented wit
 
 After selecting points of interest, users are shown the generated route on a map, along with distance and estimated time. They can either accept or go back.
 
-### <div align="center">Navigation page</div>
+### Navigation page
 
 <div>
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/NavigationPage/Navi.jpg" width="150" />
@@ -57,7 +57,7 @@ After selecting points of interest, users are shown the generated route on a map
 
 This page guides users through the route with audio cues, directional arrows, information about upcoming points of interest, a pause button, a progression line, and a menu for route editing and navigation home.
 
-### <div align="center">Afterrun Page</div>
+### Afterrun Page
 
 <div>
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/AfterRunPage/AfterRun.jpg" width="150" />
@@ -65,7 +65,7 @@ This page guides users through the route with audio cues, directional arrows, in
 
 After completing the route, this page displays statistics such as speed, distance, and points of interest passed. Users can also rate the route, and the rating is sent to a database used by the explore mode for recommendations.
 
-### <div align="center">Route history page</div>
+### Route history page
 
 <div>
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/HistoryPage/HistoryPic.jpg" width="150" />
