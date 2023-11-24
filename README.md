@@ -84,32 +84,44 @@ Accessed through the main menu, this page allows users to run a previously gener
 
 ### Installation Steps
 
-1. Ensure you have created the required API by following the instructions in the [Recreating the API section](https://github.com/eske4/RunningRouteGeneratorAPI).
+1. **Create the Required API:**
+   - Follow the instructions in the [Recreating the API section](https://github.com/eske4/RunningRouteGeneratorAPI) to create the necessary API.
 
-2. Setup RunningRouteGeneratorMapAPI by following the instructions [here](https://github.com/eske4/RunningRouteGeneratorMapAPI)
+2. **Set Up RunningRouteGeneratorMapAPI:**
+   - Follow the instructions [here](https://github.com/eske4/RunningRouteGeneratorMapAPI) to set up RunningRouteGeneratorMapAPI.
 
-3. Download Unity version 2021.3.19f1 [here](https://unity.com/releases/editor/whats-new/2021.3.19).
+3. **Download Unity 2021.3.19f1:**
+   - Download Unity version 2021.3.19f1 [here](https://unity.com/releases/editor/whats-new/2021.3.19).
 
-4. In the `Assets/Scripts/RequestSystem/` directory, open the `Requests.cs` file located at [Assets/Scripts/RequestSystem/Requests.cs]. Update the API domain, as specified in step one, by replacing "insert-your-domain" with your API domain. Modify line 15 to reflect your changes:
+4. **Update API Domain in Unity:**
+   - In the `Assets/Scripts/RequestSystem/` directory, open the `Requests.cs` file located at [Assets/Scripts/RequestSystem/Requests.cs].
+   - Update the API domain, replacing "insert-your-domain" with your API domain. Modify line 15:
+      ```csharp
+      public static string BaseApiUrl { get; private set; } = "insert-your-domain";
+      ```
 
-    ```csharp
-    public static string BaseApiUrl { get; private set; } = "insert-your-domain";
-    ```
+5. **Obtain Google Maps API Key:**
+   - Obtain a Google Maps API key [here](https://developers.google.com/maps).
 
-5. Obtain a Google Maps API key [here](https://developers.google.com/maps).
+6. **Update Google Images Requester:**
+   - In the `Assets/Scripts/RequestSystem/` directory, open the `GoogleImagesRequester.cs` file.
+   - Replace the `api_key` variable (line 1) with the obtained Google Maps API key:
+      ```csharp
+      string api_key = "your-google-maps-api-key";
+      ```
 
-6. In the `Assets/Scripts/RequestSystem/` directory, open the `GoogleImagesRequester.cs` file located at [Assets/Scripts/RequestSystem/GoogleImagesRequester.cs]. Replace the `api_key` variable (line 1) with the API key obtained in step 4:
+7. **Update RunningRouteGeneratorMapAPI URL:**
+   - In the `/Assets/Scripts/7 - RouteConfirmPage/UI/` directory, open the 'GetMapImage.cs' file.
+   - Replace the `Website string` variable (line 10) with your own RunningRouteGeneratorMapAPI URL created in Step 2:
+      ```csharp
+      private string Website = "Insert-your-map-API-url/DrawMap/";
+      ```
 
-    ```csharp
-    string api_key = "your-google-maps-api-key";
-    ```
-
-   Note: Keep the Google Maps API key confidential. Do not make the app public for security reasons.
-
-7. Upload the app to your Android device by following these steps within Unity:
-   - Go to `File` > `Build Settings`.
-   - Select `Android` under the platform.
-   - Download the Android module guided by Unity and switch the platform to Android.
-   - Build and run the application, make sure to have an Android phone connected to the pc.
+8. **Build and Run on Android:**
+   - Upload the app to your Android device by following these steps within Unity:
+      - Go to `File` > `Build Settings`.
+      - Select `Android` under the platform.
+      - Download the Android module guided by Unity and switch the platform to Android.
+      - Build and run the application, making sure to have an Android phone connected to the pc.
 
 **Important:** Never upload this app publicly, as the Google Maps API key is embedded in the app. The API key should have been built into the API during step 1. Consider using an alternative method from Google Maps to avoid potential costs and security.
