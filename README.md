@@ -19,6 +19,15 @@ text
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/RouteSettingsPage/Explore/RouteSettingsExplore.png" width="200" />
 </div>
 
+### Points of interests category page
+
+### Points of interests picker page
+
+### Navigation page
+
+
+### confirm route page
+
 ## Setup
 ### Prerequisites
 
