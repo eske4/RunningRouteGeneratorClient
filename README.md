@@ -2,7 +2,7 @@
 The RunningRouteGeneratorClient is a Unity app designed for a University project to create and navigate running routes using the [RunningRouteGeneratorAPI](https://github.com/eske4/RunningRouteGeneratorAPI). The client has 8 pages, each page with its own features to create the user experience. Note that some security aspects may be incomplete, as the project is no longer actively developed. Use with caution in security-sensitive scenarios. 
 
 ## <div align="center">Pages</div>
-### Main menu
+### <div align="center">Main menu</div>
 <div align="center">
   <img src="https://github.com/eske4/RunningRouteGeneratorClient/blob/main/Images/MainMenu/MainMenu.png" width="200">
 </div>
